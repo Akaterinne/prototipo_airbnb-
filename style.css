@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: #ff5a60;
+    --margin: 20px 100px;
+    --font-family: "Poppins", sans-serif;
+    --border-radius: 10px;
+}
+
+h1 {
+    font-family: var(--font-family);
+    margin: var(--margin);
+    margin-top: 20px;
+    color: var(--color);
+}
+
+.subtitulo {
+    margin: var(--margin);
+    display: flex;
+    gap: 2px;
+    font-family: var(--font-family);
+    margin-bottom: 30px;
+}
+
+.subtitulo h4 {
+    font-weight: 200;
+    font-style: normal;
+}
+
+.fotos {
+    display: flex;
+    margin: var(--margin);
+    gap: 30px;
+    flex-direction: row;
+}
+
+.fotos .primeira_foto img {
+    width: 600px;
+    height: 518px;
+    border-radius: var(--border-radius);
+    margin-right: 50px;
+}
+
+.fotos .primeira_dupla {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fotos .primeira_dupla img {
+    width: 250px;
+    height: 250px;
+    border-radius: var(--border-radius);
+}
+
+.fotos .segunda_dupla {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fotos .segunda_dupla img {
+    width: 250px;
+    height: 250px;
+    border-radius: var(--border-radius);
+}
+
+.descricao {
+    margin: var(--margin);
+    font-family: var(--font-family);
+}
+
+.descricao h3 {
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: var(--margin);
+    justify-content: space-between;
+    font-family: var(--font-family);
+}
+
+.container .conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .conteudo i {
+    width: 90px;
+    height: 40px;
+    font-size: 40px;
+}
+
+.container .preco {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000bc;
+    border-radius: var(--border-radius);
+    margin-right: 110px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+}
+
+.container .preco button {
+    background-color: var(--color);
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: var(--border-radius);
+    border: none;
+}
